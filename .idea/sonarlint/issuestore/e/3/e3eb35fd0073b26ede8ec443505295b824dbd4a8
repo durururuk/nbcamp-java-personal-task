@@ -1,7 +1,8 @@
 
-m	java:S106"+Replace this use of System.out by a logger.(”‡ñ©8¢¬»”Ž2J$fef85ae1-3102-461a-8627-051084e0649a
-l	java:S106"+Replace this use of System.out by a logger.(¶ÞÌt8¤¬»”Ž2J$63ad16ce-d703-446d-bf5b-7cc0f6d145ee
-m	java:S106"+Replace this use of System.out by a logger.(þÅ¯º8äâ¿”Ž2J$f3d649b2-164b-4125-8345-1fc2df1cf30e
-m	java:S106'"+Replace this use of System.out by a logger.(ÿ»£ì8¬¾Ç”Ž2J$1af6d372-5dd9-4e79-bfc4-3d2660248967
-r	java:S106/"+Replace this use of System.out by a logger.(¦’©€ùÿÿÿÿ8­¾Ç”Ž2J$c2097e81-2781-4a67-bb45-f55cb215935b
-r	java:S1064"+Replace this use of System.out by a logger.(éß¯óüÿÿÿÿ8®¾Ç”Ž2J$fbdb33d5-118f-4331-bd4e-61c97f1a74d6
+z
+java:S2589"7Remove this expression which always evaluates to "true"(á¬±ž8ØŸÖ”Ž2J$dfc1b63d-866b-4f3f-a313-f05c9657da9f
+|
+java:S1854"9Remove this useless assignment to local variable "check".(á¬±ž8ØŸÖ”Ž2J$e54c5d55-9b8f-4965-8515-da3f64cbda7c
+r
+java:S1481
+"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8ØŸÖ”Ž2J$080e4d18-be64-41a2-990c-b395d1c75608
