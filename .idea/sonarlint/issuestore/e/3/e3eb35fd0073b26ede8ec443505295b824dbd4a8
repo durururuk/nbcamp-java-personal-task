@@ -1,9 +1,9 @@
 
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿæ¥8‡È•2J$f32504c4-6ab3-4d31-a386-2f03e0e3b581
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿæ¥8âß„•2J$79045cf4-f963-41aa-bfe9-61dacdd6b774
 |
-java:S1854"9Remove this useless assignment to local variable "check".(á¬±8‡È•2J$402ae0f8-39c8-4d6e-88b7-a95c180ff0fa
+java:S1854"9Remove this useless assignment to local variable "check".(á¬±8âß„•2J$4558ef68-61c5-44ec-aca8-1fafd73d4346
 r
-java:S1481"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8‡È•2J$52340bed-296a-4850-a60b-be1611ac7b6e
+java:S1481"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8âß„•2J$e692b79b-8fd4-47a7-8b5d-1fe1d0a61557
 z
-java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8‡È•2J$4ed10f89-9dbc-44e5-ad6b-5048771fde13
+java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8âß„•2J$6332e1aa-640c-48a5-8fc5-14c2928919d1

@@ -57,14 +57,8 @@ public class App {
             }
             System.out.println("결과: " + result);
             System.out.println("현재 저장된 결과값의 갯수 : " + (resultCount + 1));
-            if (resultCount == 9) {
-                System.out.println("결과값이 10개가 되었습니다. 제일 처음 결과값을 삭제합니다.");
-                resultQueue.poll();
-                resultQueue.add(result);
-            } else {
                 resultQueue.add(result);
                 resultCount++;
-            }
 
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
