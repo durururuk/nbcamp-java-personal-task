@@ -1,0 +1,12 @@
+
+{
+java:S1854"8Remove this useless assignment to local variable "num2".(ôñíê8 ¬»”Ž2J$f52e5a68-ea9b-42ff-99b9-5d83375c1596
+{
+java:S1854"8Remove this useless assignment to local variable "num1".(–“”à8¡¬»”Ž2J$ba68ac46-22de-461b-b013-b156e5b34596
+m	java:S106
+"+Replace this use of System.out by a logger.(”‡ñ©8¢¬»”Ž2J$bf8cb7f4-1e7b-4047-bfee-146db88b8ed8
+l
+java:S1481")Remove this unused "num1" local variable.(–“”à8£¬»”Ž2J$9efe810c-45e9-4c96-87f3-4a0e2ddfb6dd
+l	java:S106"+Replace this use of System.out by a logger.(¶ÞÌt8¤¬»”Ž2J$3c1376f5-c222-4d94-a70f-1d9e48bc1abd
+l
+java:S1481")Remove this unused "num2" local variable.(ôñíê8¥¬»”Ž2J$18e43102-3ab9-4320-849b-51a0527ac14a
