@@ -1,17 +1,7 @@
 
-‚
-java:S1854":Remove this useless assignment to local variable "symbol".(Â•ªÔüÿÿÿÿ8Ýâ¿”Ž2J$826a8eab-019c-4a92-b416-adb88abecdda
-{
-java:S1854"8Remove this useless assignment to local variable "num2".(ôñíê8 ¬»”Ž2J$67e045d7-1225-4d58-aaba-5ef4009820a1
-{
-java:S1854"8Remove this useless assignment to local variable "num1".(–“”à8¡¬»”Ž2J$73b0f709-c11a-413d-8b38-6706e85c7c92
-m	java:S106
-"+Replace this use of System.out by a logger.(”‡ñ©8¢¬»”Ž2J$2509d1bb-0a60-41d0-8640-4dd7332b1774
-l
-java:S1481")Remove this unused "num1" local variable.(–“”à8£¬»”Ž2J$c9733cc3-077e-47ca-b230-6bed2a0175f7
-l	java:S106"+Replace this use of System.out by a logger.(¶ÞÌt8¤¬»”Ž2J$8fea0466-52e7-4635-a537-523f159e9d86
-l
-java:S1481")Remove this unused "num2" local variable.(ôñíê8¥¬»”Ž2J$cdf795f1-6ae6-4aaf-b5a3-3eb8fc898894
-m	java:S106"+Replace this use of System.out by a logger.(þÅ¯º8äâ¿”Ž2J$e281c0e2-d55b-4a63-ae36-3e12a25d9a3a
-s
-java:S1481"+Remove this unused "symbol" local variable.(Â•ªÔüÿÿÿÿ8åâ¿”Ž2J$89fbae5d-345a-4424-b09c-cf88a199dd9b
+m	java:S106"+Replace this use of System.out by a logger.(”‡ñ©8¢¬»”Ž2J$fef85ae1-3102-461a-8627-051084e0649a
+l	java:S106"+Replace this use of System.out by a logger.(¶ÞÌt8¤¬»”Ž2J$63ad16ce-d703-446d-bf5b-7cc0f6d145ee
+m	java:S106"+Replace this use of System.out by a logger.(þÅ¯º8äâ¿”Ž2J$f3d649b2-164b-4125-8345-1fc2df1cf30e
+m	java:S106'"+Replace this use of System.out by a logger.(ÿ»£ì8¬¾Ç”Ž2J$1af6d372-5dd9-4e79-bfc4-3d2660248967
+r	java:S106/"+Replace this use of System.out by a logger.(¦’©€ùÿÿÿÿ8­¾Ç”Ž2J$c2097e81-2781-4a67-bb45-f55cb215935b
+r	java:S1064"+Replace this use of System.out by a logger.(éß¯óüÿÿÿÿ8®¾Ç”Ž2J$fbdb33d5-118f-4331-bd4e-61c97f1a74d6
