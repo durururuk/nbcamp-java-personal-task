@@ -1,9 +1,13 @@
 
 œ
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿæ¥8âß„•2J$79045cf4-f963-41aa-bfe9-61dacdd6b774
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿæ¥8‘û•2J$20cebed0-5bd3-449f-9035-7a3ba374c68a
+›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(á¬±8èõ©•2J$db522cab-b60d-4700-8cc7-78f54fc24cac
+•
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Çµí‘8Ÿ¥§•2J$22ce263f-b76f-4f9e-a840-996079d12550
 |
-java:S1854"9Remove this useless assignment to local variable "check".(á¬±8âß„•2J$4558ef68-61c5-44ec-aca8-1fafd73d4346
+java:S1854"9Remove this useless assignment to local variable "check".(á¬±8‘û•2J$fc1ba30f-d81e-430f-a967-95af369e0916
 r
-java:S1481"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8âß„•2J$e692b79b-8fd4-47a7-8b5d-1fe1d0a61557
+java:S1481"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8‘û•2J$e985b271-5e66-4dd1-bb77-cbbdaf3a6b2b
 z
-java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8âß„•2J$6332e1aa-640c-48a5-8fc5-14c2928919d1
+java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8¿ğ§•2J$de46e9ed-c58c-4832-bd72-9c1139aaddd3

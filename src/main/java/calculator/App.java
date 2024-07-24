@@ -56,6 +56,19 @@ public class App {
                     break;
             }
             System.out.println("결과: " + result);
+            System.out.println();
+
+            System.out.println("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제)");
+            String remove = sc.nextLine();
+            if (remove.equals("remove")) {
+                System.out.println("가장 먼저 저장된 연산 결과를 삭제합니다.");
+                resultQueue.poll();
+                if (resultCount == 0) {continue;} else{resultCount--;}
+            } else {
+                System.out.println("가장 먼저 저장된 연산 결과를 삭제하지 않습니다.");
+            }
+            System.out.println();
+
             System.out.println("현재 저장된 결과값의 갯수 : " + (resultCount + 1));
                 resultQueue.add(result);
                 resultCount++;
