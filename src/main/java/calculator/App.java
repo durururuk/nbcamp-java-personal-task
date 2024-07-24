@@ -1,5 +1,7 @@
 package calculator;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class App {
@@ -8,6 +10,8 @@ public class App {
         Scanner sc = new Scanner(System.in);
         int result = 0;
         boolean check = true;
+        Queue<Integer> resultQueue = new LinkedList<Integer>();
+        int resultCount = 0;
 
         while(check = true) {
             System.out.print("첫 번째 숫자를 입력하세요: ");
@@ -28,6 +32,7 @@ public class App {
                 case '+':
                     result = num1 + num2;
                     break;
+
                 case '-':
                     result = num1 - num2;
                     break;
@@ -48,10 +53,10 @@ public class App {
                 default:
                     System.out.println("입력이 올바르지 않습니다.");
                     break;
-
-
             }
             System.out.println("결과: " + result);
+            resultQueue.add(result);
+            resultCount++;
 
             System.out.println("더 계산하시겠습니까? (exit 입력 시 종료)");
             /* exit을 입력 받으면 반복 종료 */

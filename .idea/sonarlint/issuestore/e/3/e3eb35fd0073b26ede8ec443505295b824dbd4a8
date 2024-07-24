@@ -1,8 +1,11 @@
 
 z
-java:S2589"7Remove this expression which always evaluates to "true"(α¬±8ΨΦ”2J$dfc1b63d-866b-4f3f-a313-f05c9657da9f
+java:S2589"7Remove this expression which always evaluates to "true"(α¬±8ΨΦ”2J$89b72ae0-0c1f-48f0-8b1a-36392feebb62
+
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿζ¥8–άλ”2J$30d90264-e86e-4955-8a9b-7c6fbc435f8f
 |
-java:S1854"9Remove this useless assignment to local variable "check".(α¬±8ΨΦ”2J$e54c5d55-9b8f-4965-8515-da3f64cbda7c
+java:S1854"9Remove this useless assignment to local variable "check".(α¬±8ΨΦ”2J$bd00fdb0-4f38-4d3f-909e-8392b661cccb
 r
-java:S1481
-"*Remove this unused "check" local variable.(ƒ°ÿÿÿÿÿÿ8ΨΦ”2J$080e4d18-be64-41a2-990c-b395d1c75608
+java:S1481"*Remove this unused "check" local variable.(ƒ°ÿÿÿÿÿÿ8ΨΦ”2J$26a84535-46e4-4ea3-bec8-792db6ffe00a
+x
+java:S1481"0Remove this unused "resultCount" local variable.(ΉέλΔϊÿÿÿÿ8–άλ”2J$3c6d1d7a-dc0f-4ce0-9775-a95d656df045

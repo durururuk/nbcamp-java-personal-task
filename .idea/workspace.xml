@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="입력받은 양의 정수 2개와 사칙연산 기호를 사용하여 연산을 진행한 후 결과값을 출력합니다.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="반복문을 사용하여 반복의 종료를 알려주는 “exit” 문자열을 입력하기 전까지 무한으로 계산을 진행할 수 있도록 소스 코드를 수정합니다.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/App.java" afterDir="false" />
     </list>
@@ -78,6 +77,8 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Gradle.nbcamp-java-personal-task [:App.main()].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS 중요 메시지",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -131,7 +132,7 @@
       <workItem from="1713088532647" duration="253000" />
       <workItem from="1721787580750" duration="53000" />
       <workItem from="1721787674430" duration="36000" />
-      <workItem from="1721787724493" duration="794000" />
+      <workItem from="1721787724493" duration="984000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -165,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721788238604</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="반복문을 사용하여 반복의 종료를 알려주는 “exit” 문자열을 입력하기 전까지 무한으로 계산을 진행할 수 있도록 소스 코드를 수정합니다.">
+      <option name="closed" value="true" />
+      <created>1721788560506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1721788560506</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +208,7 @@
     <MESSAGE value="Scanner를 사용하여 양의 정수 2개(0 포함)를 전달 받을 수 있습니다." />
     <MESSAGE value="Scanner를 사용하여 사칙연산 기호를 전달 받을 수 있습니다." />
     <MESSAGE value="입력받은 양의 정수 2개와 사칙연산 기호를 사용하여 연산을 진행한 후 결과값을 출력합니다." />
-    <option name="LAST_COMMIT_MESSAGE" value="입력받은 양의 정수 2개와 사칙연산 기호를 사용하여 연산을 진행한 후 결과값을 출력합니다." />
+    <MESSAGE value="반복문을 사용하여 반복의 종료를 알려주는 “exit” 문자열을 입력하기 전까지 무한으로 계산을 진행할 수 있도록 소스 코드를 수정합니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="반복문을 사용하여 반복의 종료를 알려주는 “exit” 문자열을 입력하기 전까지 무한으로 계산을 진행할 수 있도록 소스 코드를 수정합니다." />
   </component>
 </project>
