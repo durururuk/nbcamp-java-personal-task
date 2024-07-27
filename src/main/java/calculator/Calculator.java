@@ -4,15 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Calculator {
-    private double result = 0;
-    private final Queue<Double> resultQueue = new LinkedList<>();
+    private double result;
+    private final Queue<Double> resultQueue;
 
-    public double getResult() {
-        return result;
-    }
-
-    public Queue<Double> getResultQueue() {
-        return new LinkedList<>(resultQueue);
+    public Calculator() {
+        this.result = 0;
+        this.resultQueue = new LinkedList<>();
     }
 
     public void pollResult() {
