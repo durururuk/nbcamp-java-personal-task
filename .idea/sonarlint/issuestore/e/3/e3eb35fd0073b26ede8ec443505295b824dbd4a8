@@ -1,9 +1,7 @@
 
-‹
-java:S2583)"CChange this condition so that it does not always evaluate to "true"(Øú×õıÿÿÿÿ8·Ú¿˜2J$98d34445-68b7-40ad-998c-4845b75fcc7d
-	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÉÔ»˜2J$7b0abee3-661f-4a3e-89b6-644a71eb22e9
- 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ÊÔ»˜2J$349af6f0-bc5e-4976-a722-57e2beb3ceed
-•
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8ÍÔ»˜2J$521fa649-e9fa-4bd9-9784-0c032970a2b7
+e
+java:S2583)"CChange this condition so that it does not always evaluate to "true"(Øú×õıÿÿÿÿ8¤ùÓ˜2
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÉÔ»˜2J$9bd22182-e1bb-41d8-b5d6-df214b767094
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ÊÔ»˜2J$e001569a-ae0a-4b9d-a497-6d9ad6da976d
 ‚
-java:S1854/"?Remove this useless assignment to local variable "resultCount".(Íšè8ÃÚ¿˜2J$4f6eaffd-3964-43ad-9fa0-4daf84e22b7e
+java:S1854/"?Remove this useless assignment to local variable "resultCount".(Íšè8ÃÚ¿˜2J$d65a481a-821b-4cd9-b150-f8aa0d5c99fb

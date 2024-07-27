@@ -19,6 +19,16 @@ public class Calculator {
         resultQueue.poll();
     }
 
+    public void inQuiry() {
+        System.out.println("저장돤 결괏값은 다음과 같습니다..");
+        System.out.print("[ ");
+        for (Double resultValue : resultQueue) {
+            System.out.print(resultValue + ", ");
+        }
+        System.out.print("]");
+        System.out.println();
+    }
+
 
 
 
