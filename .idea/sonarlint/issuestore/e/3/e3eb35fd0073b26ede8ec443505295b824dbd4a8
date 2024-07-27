@@ -1,20 +1,9 @@
 
-z
-java:S2589"7Remove this expression which always evaluates to "true"(á¬±8×ƒÇø2J$5a3012cc-f1c4-4fe7-874e-9d0cd4b08659
-	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ûÿı÷2J$d72afb6b-d635-47c0-be40-4a32a906f584
-›	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(á¬±8ÿÿı÷2J$66446f41-b736-4342-b996-8b271b587bed
+‹
+java:S2583)"CChange this condition so that it does not always evaluate to "true"(Øú×õıÿÿÿÿ8·Ú¿˜2J$98d34445-68b7-40ad-998c-4845b75fcc7d
+	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÉÔ»˜2J$7b0abee3-661f-4a3e-89b6-644a71eb22e9
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ÊÔ»˜2J$349af6f0-bc5e-4976-a722-57e2beb3ceed
 •
-java:S3776
-"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8€€ş÷2J$ded9ea27-3e2d-4789-85c3-5bb14e98c899
-|
-java:S1854"9Remove this useless assignment to local variable "check".(á¬±8€€ş÷2J$1dda57a0-691d-4b67-a182-2047373fa731
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘8ÍÔ»˜2J$521fa649-e9fa-4bd9-9784-0c032970a2b7
 ‚
-java:S1854K":Remove this useless assignment to local variable "result".(üø¤ğùÿÿÿÿ8Í…ø2J$d036ac82-cb20-438a-9177-74337cf839ab
-r
-java:S1481"*Remove this unused "check" local variable.(Šƒ°ÿÿÿÿÿÿ8€€ş÷2J$e965a113-b3ce-48fe-b04b-25b4d9f77f24
-s
-java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18×ƒÇø2J$a5f3b431-49fe-47eb-8f32-3f0ab47a726d
-o
-java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8ØƒÇø2J$72dc25df-23e7-4514-8edf-1be5a0de5d3a
-z
-java:S1128"2Remove this unused import 'java.util.Spliterator'.(òÀì¿ùÿÿÿÿ8ØƒÇø2J$825ee587-4e15-4c6f-80a8-1af9a6169e87
+java:S1854/"?Remove this useless assignment to local variable "resultCount".(Íšè8ÃÚ¿˜2J$4f6eaffd-3964-43ad-9fa0-4daf84e22b7e

@@ -19,8 +19,6 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
-b
-2src/main/java/calculator/ZeroDividedException.java,c\e\ceb8cab1cad19fc950ff1b372fe1a28f911f1f9f
 R
 "src/main/java/calculator/test.java,c\8\c8c664b50fb42cf3393d40b4ddf7a3d7b0e5dcd4
 f

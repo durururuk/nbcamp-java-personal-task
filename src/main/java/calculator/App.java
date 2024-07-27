@@ -1,34 +1,30 @@
 package calculator;
 
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Scanner;
-import java.util.Spliterator;
 
 public class App {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         double result = 0;
-        boolean check = true;
         int resultCount = 0;
         Calculator cal = new Calculator();
+        int num1 = 0;
+        int num2 = 0;
 
-        while(check = true) {
+        while(true) {
+
             System.out.print("첫 번째 숫자를 입력하세요: ");
-            // Scanner를 사용하여 양의 정수를 입력받고 적합한 타입의 변수에 저장합니다.
-            int num1 = sc.nextInt();
+            num1 = sc.nextInt();
             sc.nextLine();
             System.out.print("두 번째 숫자를 입력하세요: ");
-            // Scanner를 사용하여 양의 정수를 입력받고 적합한 타입의 변수에 저장합니다.
-            int num2 = sc.nextInt();
+            num2 = sc.nextInt();
             sc.nextLine();
             System.out.print("사칙연산 기호를 입력하세요: ");
-            // 사칙연산 기호를 적합한 타입으로 선언한 변수에 저장합니다.
             char operator = sc.next().charAt(0);
             sc.nextLine();
 
-            /* switch를 사용해서 연산을 실행하고 결과값을 출력합니다..*/
+
             try {
                 result = cal.calculate(num1,num2,operator);
             } catch (InvalidOperatorException e) {
@@ -41,7 +37,7 @@ public class App {
             String remove = sc.nextLine();
             if (remove.equals("remove")) {
                 System.out.println("가장 먼저 저장된 연산 결과를 삭제합니다.");
-                cal.resultQueue.poll();
+                cal.pollResult();
                 if (resultCount == 0) {continue;} else{resultCount--;}
             } else {
                 System.out.println("가장 먼저 저장된 연산 결과를 삭제하지 않습니다.");
@@ -56,7 +52,7 @@ public class App {
             if (inquiry.equals("inquiry")) {
                 System.out.println("저장돤 결괏값은 다음과 같습니다..");
                 System.out.print("[ ");
-                for (Double resultValue : cal.resultQueue) {
+                for (Double resultValue : cal.getResultQueue()) {
                     System.out.print(resultValue + ", ");
                 }
                 System.out.print("]");
@@ -72,7 +68,7 @@ public class App {
             } else {
                 System.out.println("계산을 게속합니다.");
                 System.out.println();
-                result = 0;
+                break;
             }
 
         }

@@ -4,12 +4,23 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Calculator {
-    double result = 0;
-    Queue<Double> resultQueue = new LinkedList<>();
-    
-    public void resultQueue() {
-        this.resultQueue = resultQueue;
+    private double result = 0;
+    private final Queue<Double> resultQueue = new LinkedList<>();
+
+    public double getResult() {
+        return result;
     }
+
+    public Queue<Double> getResultQueue() {
+        return new LinkedList<>(resultQueue);
+    }
+
+    public void pollResult() {
+        resultQueue.poll();
+    }
+
+
+
 
     public double calculate (int firstNumber, int secondNumber, char operator) throws InvalidOperatorException {
         switch (operator) {
@@ -44,7 +55,7 @@ public class Calculator {
 
 
             default:
-                throw new InvalidOperatorException("연산자가 올바르지 않습니다.");
+                throw new InvalidOperatorException("입력이 올바르지 않습니다.");
 
 
         }
