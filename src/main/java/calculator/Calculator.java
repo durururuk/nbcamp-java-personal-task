@@ -61,7 +61,7 @@ public class Calculator {
             resultQueue.add(result);
         }
     }
-
+//연산자를 선택해서 연산하기
     public double operation(char operator, int firstNumber, int secondNumber) {
         switch (operator) {
             case '+' : return add.calculate(firstNumber, secondNumber);

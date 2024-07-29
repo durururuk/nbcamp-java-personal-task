@@ -1,5 +1,6 @@
 package calculator;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class App {
@@ -23,47 +24,47 @@ public class App {
 
                     if (whatCal.equals("사칙연산")) {
                         //사칙연산 수행 후 출력
-                        System.out.print("첫 번째 숫자를 입력하세요: ");
-                        num1 = sc.nextInt();
-                        sc.nextLine();
-                        System.out.print("두 번째 숫자를 입력하세요: ");
-                        num2 = sc.nextInt();
-                        sc.nextLine();
-                        System.out.print("사칙연산 기호를 입력하세요: ");
-                        char operator = sc.nextLine().charAt(0);
-                        try {
-                            result = cal.operation(operator,num1,num2);
-                        } catch (Exception e) {
-                            e.getMessage();
+                        try{
+                            System.out.print("첫 번째 숫자를 입력하세요: ");
+                            num1 = sc.nextInt();
+                            sc.nextLine();
+                            System.out.print("두 번째 숫자를 입력하세요: ");
+                            num2 = sc.nextInt();
+                            sc.nextLine();
+                            System.out.print("사칙연산 기호를 입력하세요:  (+,-,*,/,%)");
+                            char operator = sc.nextLine().charAt(0);
+                            result = cal.operation(operator,num1,num2);}
+                        catch (InputMismatchException e) {
+                            System.out.println("숫자를 입력해주세요!");
                         }
+
                         System.out.println("결과: " + result);
                         System.out.println();
                         cal.setQueue("fbo", result);
                         break;
 
-
                         //원의 넓이 계산 후 출력
                     } else if (whatCal.equals("원의 넓이")) {
                         isCircle = true;
                         System.out.println("원의 반지름을 입력해주세요.");
-                        radius = sc.nextInt();
-                        sc.nextLine();
-                        result = cal.circle.calculate(radius);
-                        System.out.println("결과: " + result);
-                        System.out.println();
-                        cal.setQueue("circle", result);
-                        cal.getQueue("circle");
-                        break;
-
+                        try{
+                            radius = sc.nextInt();
+                            sc.nextLine();
+                            result = cal.circle.calculate(radius);
+                            System.out.println("결과: " + result);
+                            System.out.println();
+                            cal.setQueue("circle", result);
+                            cal.getQueue("circle");
+                            break;
+                        } catch(InputMismatchException e) {
+                            System.out.println("숫자를 입력해주세요!");
+                            break;
+                        }
 
                     } else {
                         System.out.println("입력이 올바르지 않습니다.");
                     }
                 }
-
-
-
-
 
             System.out.print("가장 먼저 저장된 연산 결과를 삭제하시겠습니까? (remove 입력 시 삭제) : ");
             String remove = sc.nextLine();
