@@ -6,7 +6,7 @@ public class App {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double result;
+        double result = 0;
         Calculator cal = new Calculator();
         int num1;
         int num2;
@@ -32,9 +32,9 @@ public class App {
                         System.out.print("사칙연산 기호를 입력하세요: ");
                         char operator = sc.nextLine().charAt(0);
                         try {
-                            result = cal.calculate(num1, num2, operator);
-                        } catch (InvalidOperatorException e) {
-                            throw new RuntimeException(e);
+                            result = cal.operation(operator,num1,num2);
+                        } catch (Exception e) {
+                            e.getMessage();
                         }
                         System.out.println("결과: " + result);
                         System.out.println();
@@ -48,7 +48,7 @@ public class App {
                         System.out.println("원의 반지름을 입력해주세요.");
                         radius = sc.nextInt();
                         sc.nextLine();
-                        result = Calculator.calculate(radius);
+                        result = cal.circle.calculate(radius);
                         System.out.println("결과: " + result);
                         System.out.println();
                         cal.setQueue("circle", result);

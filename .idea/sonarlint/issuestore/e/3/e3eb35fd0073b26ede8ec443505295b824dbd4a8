@@ -1,15 +1,6 @@
 
-	java:S112%"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8’¬Öê2J$4426f8f1-0fbf-4f4f-be6e-c87d3d6a2007
- 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8’¬Öê2J$1da678ef-7f9f-4fc2-adcf-9482bd639e3a
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8İéÊî2J$e14bde09-4093-4347-9254-1fa927778911
 
-java:S11926"GDefine a constant instead of duplicating this literal "circle" 3 times.(Í¹Ÿèşÿÿÿÿ8’¬Öê2J$a9d6eb4d-b34a-4ad3-81c0-6360c453bc82
+java:S11926"GDefine a constant instead of duplicating this literal "circle" 3 times.(Í¹Ÿèşÿÿÿÿ8İéÊî2J$b164bade-6c06-4332-8c62-7bbdd96bae76
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Çµí‘8”¬Öê2J$60dc90f6-4cb1-4e7f-a74d-530343be4595
-x
-java:S2209#"5Change this instance-reference to a static reference.(æñ€8˜¬Öê2J$422e6a1b-e425-4c3d-a74c-cc7c3e34daca
-}
-java:S22093"5Change this instance-reference to a static reference.(ÔÒÀşÿÿÿÿ8™¬Öê2J$e03b81c2-b455-4360-bb72-6e2682e5e4a2
-o
-java:S1125H"'Remove the unnecessary boolean literal.(ˆÔÓéıÿÿÿÿ8ëêæê2J$edc5a05f-41f2-4cd4-afbe-688fa54c15cc
-j
-java:S1125U"'Remove the unnecessary boolean literal.(²Ù¼Ÿ8÷œçê2J$fdc32a13-19db-41c6-8b9f-17480b1e4168
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Çµí‘8Ğê»î2J$1914cb1b-a25a-46cf-985e-91b6bb8b49a0
