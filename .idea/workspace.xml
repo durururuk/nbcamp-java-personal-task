@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="9.ArithmeticCalculator 클래스의 연산 메서드에 책임(역할)이 많아 보입니다. 사칙연산 각각의 기능을 담당하는 AddOperator, SubtractOperator, MultiplyOperator, DivideOperator 클래스를 만들어 연산 메서드의 책임을 분리 해봅니다. (SRP)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/calculator/ModOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/Calculator.java" afterDir="false" />
+    <list default="true" id="cbccc591-8f54-46e0-b8bf-1c0192b1eef2" name="Changes" comment="10.ArithmeticCalculator 클래스에 추가로 나머지 연산(%) 기능을 추가하기 위해 ModOperator 클래스를 만들어 추가합니다.">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3eb35fd0073b26ede8ec443505295b824dbd4a8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/3/e3eb35fd0073b26ede8ec443505295b824dbd4a8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/calculator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "durururuk"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/durururuk/nbcamp-java-personal-task",
+    "accountId": "6c1f4461-a786-4569-89ec-9e716a625229"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="11" />
@@ -177,7 +190,7 @@
       <workItem from="1722039020224" duration="2684000" />
       <workItem from="1722063919920" duration="2209000" />
       <workItem from="1722214890833" duration="22599000" />
-      <workItem from="1722244575970" duration="1475000" />
+      <workItem from="1722244575970" duration="4096000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -315,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722245947858</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="10.ArithmeticCalculator 클래스에 추가로 나머지 연산(%) 기능을 추가하기 위해 ModOperator 클래스를 만들어 추가합니다.">
+      <option name="closed" value="true" />
+      <created>1722246239443</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722246239443</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +383,7 @@
     <MESSAGE value="Calculator 인스턴스를 생성(new)할 때 생성자를 통해 연산 결과를 저장하고 있는 컬렉션 필드가 초기화 되도록 수정합니다." />
     <MESSAGE value="7. Calculator 클래스에 반지름을 매개변수로 전달받아 원의 넓이를 계산하여 반환해주는 메서드를 구현합니다." />
     <MESSAGE value="9.ArithmeticCalculator 클래스의 연산 메서드에 책임(역할)이 많아 보입니다. 사칙연산 각각의 기능을 담당하는 AddOperator, SubtractOperator, MultiplyOperator, DivideOperator 클래스를 만들어 연산 메서드의 책임을 분리 해봅니다. (SRP)" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.ArithmeticCalculator 클래스의 연산 메서드에 책임(역할)이 많아 보입니다. 사칙연산 각각의 기능을 담당하는 AddOperator, SubtractOperator, MultiplyOperator, DivideOperator 클래스를 만들어 연산 메서드의 책임을 분리 해봅니다. (SRP)" />
+    <MESSAGE value="10.ArithmeticCalculator 클래스에 추가로 나머지 연산(%) 기능을 추가하기 위해 ModOperator 클래스를 만들어 추가합니다." />
+    <option name="LAST_COMMIT_MESSAGE" value="10.ArithmeticCalculator 클래스에 추가로 나머지 연산(%) 기능을 추가하기 위해 ModOperator 클래스를 만들어 추가합니다." />
   </component>
 </project>

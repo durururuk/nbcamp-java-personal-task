@@ -1,6 +1,6 @@
 
- 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8İéÊî2J$e14bde09-4093-4347-9254-1fa927778911
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8›ŸÕğ2J$b725af84-e561-4d8c-80bb-9349a8242373
 
-java:S11926"GDefine a constant instead of duplicating this literal "circle" 3 times.(Í¹Ÿèşÿÿÿÿ8İéÊî2J$b164bade-6c06-4332-8c62-7bbdd96bae76
+java:S1192;"GDefine a constant instead of duplicating this literal "circle" 3 times.(Í¹Ÿèşÿÿÿÿ8›ŸÕğ2J$c7a433e3-a9d9-4c31-a3c7-bdd2e0cfc6cb
 •
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(Çµí‘8Ğê»î2J$1914cb1b-a25a-46cf-985e-91b6bb8b49a0
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(Çµí‘8œŸÕğ2J$71b30ea4-d5a4-4bd7-8f58-0a3c6839167d
