@@ -10,6 +10,7 @@ public class Calculator {
     ArithmeticCalculator sub = new SubtractOperator();
     ArithmeticCalculator multi = new MultiplyOperator();
     ArithmeticCalculator div = new DivideOperator();
+    ArithmeticCalculator mod = new ModOperator();
     CircleCalculator circle;
 
     public Calculator() {
@@ -67,6 +68,7 @@ public class Calculator {
             case '-' : return sub.calculate(firstNumber, secondNumber);
             case '*' : return multi.calculate(firstNumber,secondNumber);
             case '/' : return div.calculate(firstNumber,secondNumber);
+            case '%' : return mod.calculate(firstNumber, secondNumber);
             default :
                 System.out.println("연산자가 올바르지 않습니다.");
                 return 0;

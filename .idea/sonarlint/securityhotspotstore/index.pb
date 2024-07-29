@@ -35,3 +35,5 @@ Y
 ,src/main/java/calculator/DivideOperator.java,e\8\e8ff3112df8ba35efe277ff4ac4a03ecc5dfceb4
 S
 #src/main/java/calculator/testr.java,6\9\69e6acc1a1ee8514ffbc22d0a37fae04f162d4e5
+Y
+)src/main/java/calculator/ModOperator.java,b\a\baa3fd5306cdc84a6db236b887f2f32e4bc57028
