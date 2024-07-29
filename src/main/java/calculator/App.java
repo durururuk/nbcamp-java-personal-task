@@ -6,12 +6,12 @@ public class App {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double result = 0;
+        double result;
         Calculator cal = new Calculator();
-        int num1 = 0;
-        int num2 = 0;
-        int radius = 0;
-        boolean isCircle = false;
+        int num1;
+        int num2;
+        int radius;
+        boolean isCircle;
 
             //전체 반복문
             while (true) {
@@ -48,7 +48,7 @@ public class App {
                         System.out.println("원의 반지름을 입력해주세요.");
                         radius = sc.nextInt();
                         sc.nextLine();
-                        result = cal.calculate(radius);
+                        result = Calculator.calculate(radius);
                         System.out.println("결과: " + result);
                         System.out.println();
                         cal.setQueue("circle", result);
@@ -69,7 +69,7 @@ public class App {
             String remove = sc.nextLine();
             if (remove.equals("remove")) {
                 //원의 넓이를 계산했을 경우
-                if(isCircle == true) {
+                if(isCircle) {
                     System.out.println("가장 먼저 저장된 원의 넓이 연산 결과를 삭제합니다.");
                     cal.pollResult("circle");
                 }   //사칙연산을 수행했을 경우
@@ -82,7 +82,7 @@ public class App {
                 System.out.println("가장 먼저 저장된 연산 결과를 삭제하지 않습니다.");
             }
 
-            if(isCircle == false) {
+            if(!isCircle) {
             System.out.print("저장된 사칙연산 결과를 조회하시겠습니까? (inquiry 입력 시 조회) : ");
             String inquiry = sc.nextLine();
             if (inquiry.equals("inquiry")) {
