@@ -6,11 +6,11 @@ import java.util.Queue;
 public class Calculator {
     private final Queue<Double> resultQueue;
     private final Queue<Double> circleResultQueue;
-    ArithmeticCalculator add = new AddOperator();
-    ArithmeticCalculator sub = new SubtractOperator();
-    ArithmeticCalculator multi = new MultiplyOperator();
-    ArithmeticCalculator div = new DivideOperator();
-    ArithmeticCalculator mod = new ModOperator();
+    private final ArithmeticCalculator add = new AddOperator();
+    private final ArithmeticCalculator sub = new SubtractOperator();
+    private final ArithmeticCalculator multi = new MultiplyOperator();
+    private final ArithmeticCalculator div = new DivideOperator();
+    private final ArithmeticCalculator mod = new ModOperator();
     CircleCalculator circle;
 
     public Calculator() {

@@ -1,6 +1,6 @@
 package calculator;
 
-public abstract class ArithmeticCalculator {
+public interface ArithmeticCalculator {
 
-    public abstract double calculate(int firstNumber, int secondNumber);
+    public double calculate(int firstNumber, int secondNumber);
 }

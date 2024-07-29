@@ -1,6 +1,6 @@
 package calculator;
 
-public class SubtractOperator extends ArithmeticCalculator {
+public class SubtractOperator implements ArithmeticCalculator {
 
     @Override
     public double calculate(int firstNumber, int secondNumber) {
