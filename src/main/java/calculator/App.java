@@ -50,7 +50,7 @@ public class App {
                         try{
                             radius = sc.nextInt();
                             sc.nextLine();
-                            result = cal.circle.calculate(radius);
+                            result = CircleCalculator.calculate(radius);
                             System.out.println("결과: " + result);
                             System.out.println();
                             cal.setQueue("circle", result);
