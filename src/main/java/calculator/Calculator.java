@@ -4,6 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Calculator {
+    //객체가 초기화되고도 변경될 필요가 없는 요소들이고, 캡슐화를 유지시키고 싶어서 private final을 사용하였습니다.
     private final Queue<Double> resultQueue;
     private final Queue<Double> circleResultQueue;
     private final ArithmeticCalculator add = new AddOperator();
@@ -11,12 +12,11 @@ public class Calculator {
     private final ArithmeticCalculator multi = new MultiplyOperator();
     private final ArithmeticCalculator div = new DivideOperator();
     private final ArithmeticCalculator mod = new ModOperator();
-    CircleCalculator circle;
+    private final CircleCalculator circle = new CircleCalculator();
 
     public Calculator() {
-        this.resultQueue = new LinkedList<>();
-        this.circleResultQueue = new LinkedList<>();
-        this.circle = new CircleCalculator();
+        resultQueue = new LinkedList<>();
+        circleResultQueue = new LinkedList<>();
     }
 
 
@@ -32,7 +32,6 @@ public class Calculator {
 
     }
 
-    //저장된 결과값 보기
     public void getQueue(String what) {
         if (what.equals("FBO")) {
             System.out.println("저장된 결과값은 다음과 같습니다..");
@@ -61,19 +60,25 @@ public class Calculator {
             resultQueue.add(result);
         }
     }
-//연산자를 선택해서 연산하기
+
     public double operation(char operator, int firstNumber, int secondNumber) {
-        switch (operator) {
-            case '+' : return add.calculate(firstNumber, secondNumber);
-            case '-' : return sub.calculate(firstNumber, secondNumber);
-            case '*' : return multi.calculate(firstNumber,secondNumber);
-            case '/' : return div.calculate(firstNumber,secondNumber);
-            case '%' : return mod.calculate(firstNumber, secondNumber);
-            default :
+        return switch (operator) {
+            case '+' -> add.calculate(firstNumber, secondNumber);
+            case '-' -> sub.calculate(firstNumber, secondNumber);
+            case '*' -> multi.calculate(firstNumber, secondNumber);
+            case '/' -> div.calculate(firstNumber, secondNumber);
+            case '%' -> mod.calculate(firstNumber, secondNumber);
+            default -> {
                 System.out.println("연산자가 올바르지 않습니다.");
-                return 0;
-        }
+                yield 0;
+            }
+        };
     }
+
+    public double calculate(int radius) {
+        return circle.calculate(radius);
+    }
+
 
 
 
